@@ -1,0 +1,65 @@
+body {
+	background-image: url("bg_desk.jpg");
+	background-repeat: repeat-y;
+}
+
+img {
+	height: 600px;
+	width: 800px;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+
+h1 {
+	position: absolute;
+	margin-left: 325px;
+	margin-top: 120px;
+	z-index: 11;
+	font-style: italic;
+}
+
+h2 {
+	position: absolute;
+	margin-left: 325px;
+	margin-top: 180px;
+	z-index: 11;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.sticky {
+	display: table;
+	height: 40px;
+	width: 90px;
+	text-align: center;
+}
+
+span {
+	display: table-cell;
+	vertical-align: middle;
+	font-style: italic;
+}
+
+#about {
+	background-color: violet;
+	position: absolute;
+	margin-left: 1040px;
+	margin-top: 180px;
+	z-index: 7;
+}
+
+#resume {
+	background-color: #CCFF66;
+	position: absolute;
+	margin-left: 1042px;
+	margin-top: 240px;
+	z-index: 5;
+}
+
+#project {
+	background-color: #FF9999;
+	position: absolute;
+	margin-left: 1043px;
+	margin-top: 300px;
+	z-index: 3;
+}
