@@ -35,6 +35,11 @@ img {
 	text-align: center;
 }
 
+.sticky2 {
+	height: 2.5em;
+	width: 1em;
+}
+
 span {
 	display: table-cell;
 	vertical-align: middle;
@@ -42,10 +47,27 @@ span {
 	font-style: italic;
 }
 
+a {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: Noteworthy;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+}
+
 #about {
 	background-color: #FF9900;
 	position: absolute;
 	margin-left: 65em;
+	margin-top: 11.25em;
+	z-index: 9;
+}
+
+#about2 {
+	background-color: #FF9900;
+	position: absolute;
+	margin-left: 64em;
 	margin-top: 11.25em;
 	z-index: 9;
 }
