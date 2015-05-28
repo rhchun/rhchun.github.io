@@ -1,30 +1,38 @@
 body {
 	background-image: url("/images/bg_desk.jpg");
-	background-repeat: repeat-y;
 }
 
 img {
 	height: 37.5em;
 	width: 50em;
 	margin-left: 15.625em;
-	margin-top: 6.250em;
+	margin-top: 4em;
 }
 
 #header {
 	position: absolute;
 	margin-left: 10.75em;
-	margin-top: 4em;
+	margin-top: 3em;
 	z-index: 11;
-	font-family: Noteworthy;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-size: 1.875em;
 }
 
 #desc {
 	position: absolute;
 	margin-left: 20.2em;
-	margin-top: 11.2em;
+	margin-top: 9em;
 	z-index: 11;
-	font-family: Noteworthy;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#back {
+	position: absolute;
+	margin-left: 54em;
+	margin-top: 38.4em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-size: 1em;
 }
 
@@ -43,14 +51,14 @@ img {
 span {
 	display: table-cell;
 	vertical-align: middle;
-	font-family: Noteworthy;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-style: italic;
 }
 
 a {
 	display: table-cell;
 	vertical-align: middle;
-	font-family: Noteworthy;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-style: italic;
 	text-decoration: none;
 	color: black;
@@ -72,12 +80,36 @@ a {
 	z-index: 9;
 }
 
+#about_back {
+	background-color: #FF9900;
+	position: absolute;
+	margin-left: 65em;
+	margin-top: 11.25em;
+	z-index: -1;
+}
+
 #resume {
 	background-color: #FFFF33;
 	position: absolute;
 	margin-left: 65.125em;
 	margin-top: 15em;
 	z-index: 7;
+}
+
+#resume2 {
+	background-color: #FFFF33;
+	position: absolute;
+	margin-left: 64.125em;
+	margin-top: 15em;
+	z-index: 7;
+}
+
+#resume_back {
+	background-color: #FFFF33;
+	position: absolute;
+	margin-left: 65.125em;
+	margin-top: 15em;
+	z-index: -3;
 }
 
 #project {
@@ -88,10 +120,34 @@ a {
 	z-index: 5;
 }
 
+#project2 {
+	background-color: #00FF33;
+	position: absolute;
+	margin-left: 64.25em;
+	margin-top: 18.75em;
+	z-index: 5;
+}
+
+#project_back {
+	background-color: #00FF33;
+	position: absolute;
+	margin-left: 65.25em;
+	margin-top: 18.75em;
+	z-index: -5;
+}
+
 #contact {
 	background-color: #CC99FF;
 	position: absolute;
 	margin-left: 65.375em;
+	margin-top: 22.5em;
+	z-index: 3;
+}
+
+#contact2 {
+	background-color: #CC99FF;
+	position: absolute;
+	margin-left: 64.375em;
 	margin-top: 22.5em;
 	z-index: 3;
 }
