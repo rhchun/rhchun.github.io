@@ -1,5 +1,9 @@
 body {
 	background-image: url("/images/bg_desk.jpg");
+<<<<<<< Updated upstream
+=======
+	background-repeat: repeat-y;
+>>>>>>> Stashed changes
 }
 
 img {
