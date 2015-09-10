@@ -12,25 +12,129 @@ img {
 #header {
 	position: absolute;
 	margin-left: 10.75em;
-	margin-top: 3em;
+	margin-top: 2.5em;
 	z-index: 11;
 	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-size: 1.875em;
 }
 
+#github {
+	height: 10em;
+	width: 10em;
+	margin-left: 36em;
+	margin-top: 15em;
+}
+
+#facebook {
+	height: 5em;
+	width: 5em;
+	margin-left: 20em;
+	margin-top: 13em;
+}
+
 #desc {
 	position: absolute;
 	margin-left: 20.2em;
-	margin-top: 9em;
+	margin-top: 8em;
 	z-index: 11;
 	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-size: 1em;
 }
 
+#desc2 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 10.3em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc3 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 12.6em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc4 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 14.9em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc5 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 17.2em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc6 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 19.6em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc7 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 21.9em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc8 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 24.3em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#desc9 {
+	position: absolute;
+	margin-left: 20.2em;
+	margin-top: 26.6em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#githublink {
+	position: absolute;
+	margin-left: 38em;
+	margin-top: 26.6em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 1em;
+}
+
+#resume_file {
+	position: absolute;
+	margin-left: 11em;
+	margin-top: 8em;
+	z-index: 11;
+	font-family: Gill Sans, Helvetica Neue, Cursive;
+	font-size: 2.5em;
+}
+
 #back {
 	position: absolute;
 	margin-left: 54em;
-	margin-top: 38.4em;
+	margin-top: 38em;
 	z-index: 11;
 	font-family: Gill Sans, Helvetica Neue, Cursive;
 	font-size: 1em;
